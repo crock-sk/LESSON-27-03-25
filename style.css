@@ -1,0 +1,22 @@
+.btn {
+  color: #fff;
+  background-color: rgb(16, 56, 219);
+}
+
+.container {
+  padding: 50px;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  margin-top: 100px;
+}
+
+.item {
+  flex-basis: calc((100% - var(100px) * 2) / 3);
+}
